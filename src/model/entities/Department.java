@@ -20,8 +20,8 @@ public class Department implements Serializable{
 		return id;
 	}
 
-	public void setIdInteger(Integer idInteger) {
-		this.idInteger = idInteger;
+	public void setIdInteger(Integer id) {
+		this.id = id;
 	}
 
 	public String getName() {
