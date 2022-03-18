@@ -33,7 +33,7 @@ public class Seller implements Serializable{
 		return id;
 	}
 
-	public void setIdInteger(Integer id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -44,8 +44,16 @@ public class Seller implements Serializable{
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+
 
 	public Date getBirthDate() {
 		return birthDate;
@@ -80,7 +88,6 @@ public class Seller implements Serializable{
 	public void setDepartment(Department department) {
 		this.department = department;
 	}
-
 
 
 	@Override
