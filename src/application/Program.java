@@ -37,13 +37,13 @@ public class Program {
 		}
 		System.out.println("");
 		
-		System.out.println("=== Test 4: seller findAll ====");
+		System.out.println("=== Test 4: seller inset===");
 		seller = new Seller(null,"Gregorio","gregorio@gmail.com",new Date(),5000.0,department);
 		sellerDAO.insert(seller);
 		System.out.println("Inserted! New id: " + seller.getId());
 		System.out.println("");
 		
-		System.out.println("=== Test 5: seller findAll ====");
+		System.out.println("=== Test 5: seller findById ====");
 		seller = sellerDAO.findById(1);
 		seller.setName("Martha");
 		sellerDAO.update(seller);
